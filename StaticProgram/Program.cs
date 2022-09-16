@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Schema;
@@ -82,13 +83,13 @@ namespace StaticProgram
 
 
             //(circle-abstract)
-        /*    AbstractShape shape1 =new AbstractShape(4);
-         *    shape1.area;
+          AbstractShape shape1 =new Circle(4);
+            shape1.area();
             Console.WriteLine(shape1);
-          */
+         
 
          /*   //(rectangle-abstract)
-            AbstractShape2 shape1 = new AbstractShape2(4,6);
+            AbstractShape2 shape1 = new Rectangle(4,6);
             shape1.area();
             Console.WriteLine(shape1);
          */
